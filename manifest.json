@@ -2,9 +2,13 @@
   "manifest_version": 3,
   "name": "YouTube Sentiment Analysis",
   "version": "1.0",
-  "description": "Send random text to API and receive sentiment response.",
+  "description": "Fetch YouTube comments and run sentiment analysis.",
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["scripting"]
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "https://www.googleapis.com/*",
+    "http://localhost:5000/*"
+  ]
 }
