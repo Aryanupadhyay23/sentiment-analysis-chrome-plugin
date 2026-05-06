@@ -1,24 +1,38 @@
 {
   "manifest_version": 3,
+
   "name": "YouTube Sentiment Analyzer",
+
   "version": "2.0",
-  "description": "Analyze YouTube comments using AI-powered sentiment analysis.",
+
+  "description":
+    "Analyze YouTube comments using AI-powered sentiment analysis.",
 
   "action": {
-    "default_popup": "popup.html"
+
+    "default_popup":
+      "popup.html",
+
+    "default_title":
+      "YouTube Sentiment Analyzer"
   },
 
   "permissions": [
+
     "tabs",
     "activeTab"
   ],
 
   "host_permissions": [
+
     "https://www.googleapis.com/*",
+
     "http://localhost:5000/*"
   ],
 
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';"
+
+    "extension_pages":
+      "script-src 'self'; object-src 'self';"
   }
 }
