@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("output");
 
   const API_KEY =
-    "";
+    "AIzaSyA_Euel1dEOMmfFHz4bdfRp-LXoQ-WOgRg";
 
   const API_URL =
     "http://localhost:5000";
