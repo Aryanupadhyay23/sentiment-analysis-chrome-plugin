@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("output");
 
   const API_KEY =
-    "AIzaSyA_Euel1dEOMmfFHz4bdfRp-LXoQ-WOgRg";
+    "";
 
   const API_URL =
-    "http://localhost:5000";
+    "http://my-elb-1997822135.us-east-1.elb.amazonaws.com/";
 
   let allData = [];
 
